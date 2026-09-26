@@ -18,3 +18,11 @@ A simple GitHub Profile Finder built using HTML, CSS and JavaScript.
 - GitHub REST API
 - Async/Await
 - Fetch API
+
+## Screenshots
+
+
+
+### GitHub Profile Result
+
+![Profile Result](Ss.png)

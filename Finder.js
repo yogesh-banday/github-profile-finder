@@ -36,21 +36,13 @@
 
           profile.innerHTML = `<h1>Name</h1>
           <h3>${name}</h3>
-          <h1>Location</h1><h3>${loctn}</h3>
-          <h1>Avatar</h1><img src="${avatar}" width="150">
+          <h1>Location</h1>
+          <h3>${loctn}</h3>
+          <h1>Avatar</h1>
+          <img src="${avatar}" width="150">
           <h1>Public Repo</h1>
           <h3>${repo}</h3>`
           ;
-        //   profile.innerHTML += `<h3>${name}</h3>`;
-
-        //   profile.innerHTML += "<h1>Location</h1>";
-        //   profile.innerHTML += `<h3>${loctn}</h3>`;
-
-        //   profile.innerHTML += "<h1>Avatar</h1>";
-        //   profile.innerHTML += `<img src="${avatar}" width="150">`;
-
-        //   profile.innerHTML += "<h1>Public Repo</h1>";
-        //   profile.innerHTML += `<h3>${repo}</h3>`;
         } catch (error) {
           profile.innerHTML = `<h1>${error.message}</h1>`;
           console.error(error);
